@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    background: url("../img/indexback.jpg");
+    background-repeat:no-repeat;
+    background-color: black;
+
+}
+
+h3{
+    color: white;
+    font-family: 'Pacifico';
+}
+
+p{
+    color: white;
+    font-family: 'Pacifico';
+}
+
+.contact7 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.contact7 h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.contact7 h3 {
+    font-size: 20px;
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+.contact7 .contact7-form {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    border: 5px solid #548ce9;
+    border-radius: 10%;
+    padding: 30px 30px 30px 30px;
+}
+
+.contact7 .contact7-form form {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.contact7 .contact7-form .form-control {
+    background: white;
+    border: 1px solid #c7c7c7;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contact7 .contact7-form .btn-default {
+    background-color: #548ce9;
+    color: #fff;
+    border-radius: 0;
+}
+
+.contact7 .contact7-form .btn-default:hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+}
+
+.contact7 .contact7-bottom {
+    background-color: #f5f5f5;
+}
+
+.contact7 .contact7-bottom h2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.contact7 .contact7-bottom p {
+    font-size: 17px;
+}
+
+.contact7 .contact7-bottom a {
+    text-decoration: none;
+}
+
+.contact7 .contact7-bottom i {
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 420px){
+    .contact7 .contact7-form {
+        border: 5px solid #548ce9;
+        border-radius: 0%;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+.wrapper {
+    width: 20%;
+}
